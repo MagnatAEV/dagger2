@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 28
@@ -25,4 +26,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.dagger:dagger:2.23.1'
+    app 'com.google.dagger:dagger-compiler:2.21'
+//    annotationProcessor 'com.raizlabs.android:DBFlow-comiper:2.2.1'
+//    implementation 'com.raizlabs.android:DBFlow-Core:2.2.1'
+//    implementation 'com.raizlabs.android:DBFlow:2.2.1'
 }
