@@ -1,7 +1,9 @@
-package dagger2.android.albul.ru.dagger2;
+package dagger2.android.albul.ru.dagger2.less1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import dagger2.android.albul.ru.dagger2.R;
 
 public class NoDiActivity extends AppCompatActivity {
 
